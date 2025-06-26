@@ -59,3 +59,53 @@ You can use the [Titanic dataset from Kaggle](https://www.kaggle.com/c/titanic/d
 Install dependencies (if running locally):
 ```bash
 pip install pandas numpy matplotlib seaborn plotly scikit-learn
+
+
+# 🏡 House Price Prediction - Linear Regression
+
+This project demonstrates how to use **Simple and Multiple Linear Regression** to predict house prices based on features like `LotArea`, `OverallQual`, and `YearBuilt`.
+
+🔗 **Colab Notebook**: [Open Here](https://colab.research.google.com/drive/137ZnLK518FmhZVWotBafyLonD2uGgtAn?usp=sharing)
+
+---
+
+📌 What’s Inside
+
+* Data loading and preprocessing
+* Train-test split
+* Simple & multiple linear regression using Scikit-learn
+* Model evaluation using:
+
+  * MAE (Mean Absolute Error)
+  * MSE (Mean Squared Error)
+  * R² Score
+* Plotting regression line (for simple regression)
+* Coefficient interpretation
+
+---
+
+ 🧪 Tools Used
+
+* Python 🐍
+* Pandas 📊
+* Matplotlib 📈
+* Scikit-learn 🤖
+
+---
+
+ 📘 Learning Outcomes
+
+* How linear regression works
+* How to evaluate model performance
+* Difference between simple and multiple regression
+* Interpreting coefficients and R² score
+
+---
+
+## 📂 Dataset
+
+Use any **house price dataset** with features like:
+
+* `SalePrice` (target)
+* `LotArea`, `OverallQual`, `YearBuilt` (features)
+
